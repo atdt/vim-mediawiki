@@ -1,0 +1,45 @@
+vim-mediawiki
+=============
+
+This repository bundles a set of vim scripts for MediaWiki editing so that they
+can be used with a Vim plugin manager such as [Pathogen][0] or [Vundle][1]. The
+scripts were all gathered from [Wikipedia:Text editor support][2] and are thus
+available under a Creative Commons Attribution-ShareAlike License.
+
+Credit for these scripts belongs to [Aepd87][3], [Danny373][4], [Ingo
+Karkat][5] and other contributors. The installation instructions were adapted
+from the documentation for [Command-T][6], a Vim plug-in by Wincent Colaiuta.
+
+Installation
+------------
+If you manage your entire `~/.vim` folder using Git then you can add the
+vim-mediawiki repository as a submodule:
+
+```sh
+cd ~/.vim
+git submodule add git://github.com/atdt/vim-mediawiki.git bundle/mediawiki
+git submodule init
+```
+
+Or if you just wish to do a simple clone instead of using submodules:
+
+```sh
+cd ~/.vim
+git clone git://github.com/atdt/vim-mediawiki.git bundle/mediawiki
+```
+
+Once you have a local copy of the repository you can update it at any time
+with:
+
+```sh
+cd ~/.vim/bundle/mediawiki
+git pull
+```
+
+  [0] https://github.com/tpope/vim-pathogen
+  [1] https://github.com/gmarik/vundle
+  [2] http://en.wikipedia.org/wiki/Wikipedia:Text_editor_support#Vim
+  [3] http://en.wikipedia.org/wiki/User:Aepd87
+  [4] http://en.wikipedia.org/wiki/User:Danny373
+  [5] http://en.wikipedia.org/wiki/User:Ingo_Karkat
+  [6] https://github.com/wincent/Command-T
