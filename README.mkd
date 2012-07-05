@@ -36,10 +36,10 @@ cd ~/.vim/bundle/mediawiki
 git pull
 ```
 
-  [0] https://github.com/tpope/vim-pathogen
-  [1] https://github.com/gmarik/vundle
-  [2] http://en.wikipedia.org/wiki/Wikipedia:Text_editor_support#Vim
-  [3] http://en.wikipedia.org/wiki/User:Aepd87
-  [4] http://en.wikipedia.org/wiki/User:Danny373
-  [5] http://en.wikipedia.org/wiki/User:Ingo_Karkat
-  [6] https://github.com/wincent/Command-T
+  [0]: https://github.com/tpope/vim-pathogen
+  [1]: https://github.com/gmarik/vundle
+  [2]: http://en.wikipedia.org/wiki/Wikipedia:Text_editor_support#Vim
+  [3]: http://en.wikipedia.org/wiki/User:Aepd87
+  [4]: http://en.wikipedia.org/wiki/User:Danny373
+  [5]: http://en.wikipedia.org/wiki/User:Ingo_Karkat
+  [6]: https://github.com/wincent/Command-T
